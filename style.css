@@ -1,0 +1,41 @@
+:root{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+   margin: auto;
+   background-color: rgb(63, 63, 63);
+}
+
+h1{
+    color: rgb(179, 20, 20);
+    font-size: 50px;
+}
+
+#prezzo{
+    font-size: 30px;
+    color: white;
+}
+
+.container{
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/77/395/701/pixel-art-andlt-aestheticandgt-town-city-waneella-hd-wallpaper-preview.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+
+.box{
+    display: flex;
+    background-color: rgba(19, 19, 19, 0.664);
+    max-width: 700px;
+    border: 2px rgb(27, 27, 27) solid;
+    border-radius: 20px;
+    justify-content: center;
+    width: 700px;
+    max-height: 400px ;
+    flex-direction: column;
+    text-align: center;
+}
